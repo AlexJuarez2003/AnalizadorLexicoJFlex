@@ -20,7 +20,7 @@ Este proyecto en Java implementa un analizador léxico utilizando **JFlex**. Fue
 ## Cómo usar
 
 1. Abre el proyecto en NetBeans.
-2. Asegúrate de que `lib/jflex.jar` esté agregado al **Classpath**:
+2. Asegúrate de que `lib/jflex.jar` esté agregado al **Classpath**.
 3. Ejecuta `Principal.java` para generar el archivo `Lexer.java` a partir de `Lexer.flex`.
 4. Usa la clase principal de la interfaz (`frmAnalizador.java`) para probar el analizador gráficamente.
 
