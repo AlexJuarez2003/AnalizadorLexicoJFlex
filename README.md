@@ -4,10 +4,12 @@ Este proyecto en Java implementa un analizador léxico utilizando **JFlex**. Fue
 
 ## Estructura del proyecto
 
-- `src/codigo/Lexer.flex`: archivo de reglas léxicas.
-- `src/codigo/Principal.java`: ejecuta la generación y uso del analizador.
-- `src/codigo/frmAnalizador.java` y `.form`: interfaz gráfica (Swing).
-- `lib/jflex.jar`: biblioteca necesaria para generar el analizador.
+- `src/codigo/Lexer.flex`: archivo de reglas léxicas de entrada para JFlex.
+- `src/codigo/Principal.java`: ejecuta la generación del analizador léxico.
+- `src/codigo/frmAnalizador.java` y `Analizador.form`: interfaz gráfica para probar el analizador (Swing).
+- `src/codigo/Lexer.java`: **ya generado** desde el archivo `.flex`, listo para usarse.
+- `src/codigo/Tokens.java`: archivo con los tipos de tokens definidos en la enumeración.
+- `lib/jflex.jar`: biblioteca necesaria para que funcione JFlex (incluida en el proyecto).
 
 ## Requisitos
 

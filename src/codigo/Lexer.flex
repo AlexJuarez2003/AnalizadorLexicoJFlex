@@ -50,3 +50,4 @@ espacio = [ \t\r\n]+
     lexema = yytext();
     return Error;
 }
+
