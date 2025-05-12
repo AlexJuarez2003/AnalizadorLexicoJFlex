@@ -1,4 +1,4 @@
-#Analizador Léxico con JFlex
+# Analizador Léxico con JFlex
 
 Este proyecto en Java implementa un analizador léxico utilizando **JFlex**. Fue desarrollado en **NetBeans**, y utiliza un archivo `.flex` para generar el analizador de tokens.
 
