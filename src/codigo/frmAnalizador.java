@@ -80,7 +80,7 @@ public class frmAnalizador extends javax.swing.JFrame {
                 {null, null}
             },
             new String [] {
-                "Token", "Tipo"
+                "Tipo", "Token"
             }
         ));
         jScrollPane4.setViewportView(tbResultados);
